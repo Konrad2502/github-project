@@ -306,3 +306,26 @@ footer {
   width: 80%;
 }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .navigation {
+    padding: 15px 15px;
+  }
+  .wrapper {
+    padding: 0 20px;
+  }
+  .section-title {
+    font-size: 16px;
+  }
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -70%);
+}
+.right {
+  padding-left: 15px;
+}
+.main-wrap {
+  padding: 0 15px;
+}
+}
